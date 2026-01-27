@@ -5,7 +5,13 @@ const find=(str)=>{
     // strArr.sort((a,b) => a.length-b.length); //ascending order
     strArr.sort((a,b) => b.length-a.length); //descending order
     // return strArr.at(-1);
-    return strArr[0];
+    
+    // return strArr[0];
+
+
+    ///we can also do it using reduce method
+
+    return strArr.reduce((prev,curr)=> curr.length>prev.length?curr:prev,"")
 }
 
 console.log(find("Pratik Bavcheee Patil"));
