@@ -9,8 +9,7 @@ const generateHashTag=(str)=>{
 
     str=str.map((curr)=> curr.replace(curr[0],curr[0].toUpperCase()))
 
-    const str1=str.join("");
-    return "#"+str1;
+    return "#"+str.join("");
 }
 
 console.log(generateHashTag("pratik Bavche Patil"))
