@@ -11,7 +11,10 @@ const generateHashTag=(str)=>{
 
 
     //using charAt method
-    str=str.map((curr)=> curr.charAt(0).toUpperCase()+curr.substring(1,curr.length) )
+    // str=str.map((curr)=> curr.charAt(0).toUpperCase()+curr.substring(1,curr.length) )
+
+    //using slice
+    str=str.map((curr)=> curr.charAt(0).toUpperCase()+curr.slice(1) )
 
     return "#"+str.join("");
 }
