@@ -1,5 +1,7 @@
 
 const countChar=(str,ch)=>{
+    str=str.toLowerCase();
+    ch=ch.toLowerCase();
     let c=0;
     for(i=0;i<str.length;i++)
     {
@@ -11,4 +13,4 @@ const countChar=(str,ch)=>{
 
 
 
-console.log(countChar("Praaaaaaatik",'a'))
+console.log(countChar("PraaaaaaAatik",'a'))
