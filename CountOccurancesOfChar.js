@@ -12,6 +12,11 @@ const countChar=(str,ch)=>{
         if(ch===curr) c++;
     })
 
+    //using map
+    // str.map((curr)=>{
+    //     if(ch===curr) c++;
+    // })
+
     //using LOOP
 
     // for(i=0;i<str.length;i++)
