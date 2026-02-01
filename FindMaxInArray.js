@@ -12,7 +12,10 @@ const findMax=(arr)=>{
 
 
     //Using Reduce
-    mx=arr.reduce((prev, curr) => curr > prev ? curr : prev);
+    // mx=arr.reduce((prev, curr) => curr > prev ? curr : prev);
+
+    //Using Max function
+    return Math.max(...arr);
 
     return mx;
 }
