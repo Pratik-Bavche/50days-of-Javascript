@@ -1,10 +1,13 @@
 
 const findMax=(arr)=>{
     let mx=0;
-    for(i=0;i<arr.length;i++)
-    {
-        if(arr[i]>mx) mx=arr[i];
-    }
+    // for(i=0;i<arr.length;i++)
+    // {
+    //     if(arr[i]>mx) mx=arr[i];
+    // }
+
+    arr.map((i)=>i>mx?mx=i:0)
+
     return mx;
 }
 
