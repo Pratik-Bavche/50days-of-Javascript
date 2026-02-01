@@ -6,7 +6,13 @@ const findMax=(arr)=>{
     //     if(arr[i]>mx) mx=arr[i];
     // }
 
-    arr.map((i)=>i>mx?mx=i:0)
+
+    //Using MAP
+    // arr.map((i)=>i>mx?mx=i:0)
+
+
+    //Using Reduce
+    mx=arr.reduce((prev, curr) => curr > prev ? curr : prev);
 
     return mx;
 }
