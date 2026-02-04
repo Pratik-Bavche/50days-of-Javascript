@@ -13,4 +13,4 @@ const ArrayEQ=(a1,a2)=>{
 
 
 
-console.log(ArrayEQ([1,2,3],[1,2,3]))
+console.log(ArrayEQ([1,2,3],[1,12,3]))
