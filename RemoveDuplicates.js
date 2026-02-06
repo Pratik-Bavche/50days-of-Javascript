@@ -1,6 +1,6 @@
 const removeDup=(arr)=>{
     // arr=Array.from(String(arr),Number)
-    let newArr=new Set(arr)
+    let newArr=[...new Set(arr)]
     return newArr
 }   
 
