@@ -1,6 +1,6 @@
 
 const findMin = (arr) => {
-    let less = arr[0];
+    let less = Number.MAX_SAFE_INTEGER;
 
     arr.map(curr => {
         if (curr < less) {
