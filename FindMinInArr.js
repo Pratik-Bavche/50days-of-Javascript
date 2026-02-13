@@ -20,13 +20,17 @@ const findMin = (arr) => {
 
     //Using loops
 
-    for(let no of arr) {
-        if(no<less)
-        {
-            less=no
-        }
-    }
-    return less
+    // for(let no of arr) {
+    //     if(no<less)
+    //     {
+    //         less=no
+    //     }
+    // }
+    // return less
+
+    //Using Spread OP
+
+    return Math.min(...arr)
 
 
 };
