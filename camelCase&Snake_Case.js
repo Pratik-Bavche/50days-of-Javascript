@@ -7,3 +7,12 @@ const camelCase=(str)=>{
 }
 
 console.log(camelCase("hello worLd"))
+
+
+//Snake Case
+
+const snakeCase = (str) => {
+  return str.toLowerCase().split(/\s+/).join("_");
+};
+
+console.log(snakeCase("hello worLd"))
