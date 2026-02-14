@@ -15,7 +15,13 @@ const snakeCase = (str) => {
 //   return str.toLowerCase().split(/\s+/).join("_");
 
 
-return str.toLowerCase().replace(/\s+/g, "_");
+// return str.toLowerCase().replace(/\s+/g, "_");
+
+
+return str.toLowerCase().replaceAll(" ", "_");
+
+
+
 };
 
 console.log(snakeCase("hello worLd"))
