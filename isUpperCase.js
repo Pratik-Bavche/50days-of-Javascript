@@ -9,8 +9,19 @@
 // }
 
 //Simple Approach
-const isUpper = (ch) => ch >= 'A' && ch <= 'Z';
-const isLower = (ch) => ch >= 'a' && ch <= 'z';
+// const isUpper = (ch) => ch >= 'A' && ch <= 'Z';
+// const isLower = (ch) => ch >= 'a' && ch <= 'z';
+
+
+
+//Direct Check
+const isUpper = (ch) => {
+    return ch===ch.toUpperCase();
+}
+
+const isLower = (ch) => {
+   return ch===ch.toLowerCase();
+}
 
 console.log(isUpper("a"))  // true
 console.log(isLower("A"))  // true
