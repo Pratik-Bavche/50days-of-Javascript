@@ -1,16 +1,16 @@
 
 const findMed=(arr)=>{
     arr.sort((a,b)=>a-b)
+    let mid=Math.floor(arr.length/2);
     if(arr.length%2==0)
     {
         // console.log(arr)
-        let mid=Math.floor(arr.length/2);
         // console.log(mid)
         return arr[mid]+arr[mid-1];
     }
     else
     {
-        return arr.reduce((prev,curr)=>prev+curr)/arr.length
+        return arr[mid]
     }
 }
 
