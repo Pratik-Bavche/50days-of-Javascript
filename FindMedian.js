@@ -19,4 +19,4 @@ const findMed=(arr)=>{
 
 
 
-console.log(findMed([1,12,34,4,5,6]))
+console.log(findMed([1,12,34,4,8,6,5]))
