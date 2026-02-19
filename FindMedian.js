@@ -5,6 +5,7 @@ const findMed=(arr)=>{
     {
         // console.log(arr)
         let mid=Math.floor(arr.length/2);
+        // console.log(mid)
         return arr[mid]+arr[mid-1];
     }
     else
@@ -18,4 +19,4 @@ const findMed=(arr)=>{
 
 
 
-console.log(findMed([1,12,34,4,5,6,7]))
+console.log(findMed([1,12,34,4,5,6]))
