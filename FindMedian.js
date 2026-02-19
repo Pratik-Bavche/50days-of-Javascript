@@ -4,7 +4,7 @@ const findMed=(arr)=>{
     let mid=Math.floor(arr.length/2);
     if(arr.length%2==0)
     {
-        console.log(arr)
+        // console.log(arr)
         return arr[mid]+arr[mid-1];
     }
     else
