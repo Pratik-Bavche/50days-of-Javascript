@@ -6,7 +6,7 @@ const findMed=(arr)=>{
     {
         // console.log(arr)
         // console.log(mid)
-        return arr[mid]+arr[mid-1];
+        return arr[mid]+arr[mid-1]/2;
     }
     else
     {
