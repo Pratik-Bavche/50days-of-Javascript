@@ -16,7 +16,7 @@ const findMed=(arr)=>{
 
 
 //Mean total sum of arr element then divide by length
-//Median for odd total length/2 and for even mid-1
+//Median for odd total length/2 and for even mid-1/2
 
 
 
