@@ -1,6 +1,6 @@
 
 const factRecursion=(no)=>{
-    if(no === 0) return 1;
+    if(no === 1) return 1;
     return no*factRecursion(no-1);
 }
 
