@@ -1,6 +1,6 @@
 
 const truncateString=(str,c)=>{
-    if(str.length>c)
+    if(str.length>c && c!=0)
     {
         return str.substring(0,7)+"...";
     }
@@ -11,4 +11,4 @@ const truncateString=(str,c)=>{
 
 
 
-console.log(truncateString("Pratik Bvcahe PAtil",7))
+console.log(truncateString("Pratik Bvcahe PAtil",0))
