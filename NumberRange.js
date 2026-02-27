@@ -1,6 +1,7 @@
 const NoRange = (s, e) => {
     if (s > e) return [];   
 
+    //using recusion
     let arr = NoRange(s + 1, e);
     arr.unshift(s);
     return arr;
