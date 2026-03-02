@@ -1,13 +1,15 @@
 
 isMTCheck=(obj)=>{
-    for(let key in obj)
-    {
-        if(obj.hasOwnProperty(key))
-        {
-            return `Its not empty`
-        }
-    }
-    return `Its empty`
+    // for(let key in obj)
+    // {
+    //     if(obj.hasOwnProperty(key))
+    //     {
+    //         return `Its not empty`
+    //     }
+    // }
+    // return `Its empty`
+
+    return Object.keys(obj).length===0?`Its empty`:`Its not empty`;
 }
 
 
